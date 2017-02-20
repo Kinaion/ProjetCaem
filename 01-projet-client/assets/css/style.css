@@ -1,0 +1,44 @@
+header #contact-connection {
+  background-color: #1A1A1A;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-top: #FC9633 solid 1.3vh;
+  font-size: 2.5vh; }
+header #contact-connection img {
+  width: 3%;
+  margin: 0.4vw; }
+header #logo-mobile {
+  display: none; }
+header #header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/header.png");
+  background-size: cover; }
+header #header img {
+  width: 330px; }
+header nav {
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  border-bottom: #FC9633 solid 1.3vh; }
+header nav ul {
+  height: 8vh; }
+header nav li {
+  display: inline; }
+header li a {
+  height: 9vh;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  color: white;
+  font-size: 3vh; }
+header li a:hover {
+  background: #333333;
+  text-decoration: none;
+  color: white; }
+header ul.menu li.icon {
+  display: none; }
