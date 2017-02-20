@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, minimum-scale=0.5, user-scalable=no" />
-    <title>connexion</title>
+    <title>CAEM Besançon École de musique - Connection</title>
     <!-- favicon logo CAEM  -->
     <link rel="icon" type="image/png" href="assets/maquette/logo_CAEM.png">
     <!-- font-awesome -->
