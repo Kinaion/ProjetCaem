@@ -1,52 +1,12 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <!-- viewport mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <title>CAEM Besançon École de musique - Adhérent</title>
-    <!-- favicon logo CAEM  -->
-    <link rel="icon" type="image/png" href="assets/maquette/logo_CAEM.png">
-    <!-- font-awesome -->
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/page_adherent.css">
-    <!-- style header -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
+    <?php  include('template/head.html'); ?>
 
 <body>
     <header>
-<?php include('template/header.html'); ?>
-        <!-- menu burger -->
-        <!-- <nav class="navbar navbar-inverse">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mb_menu" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div> -->
-            <!-- navbar visible -->
-            <!-- <div class="collapse navbar-collapse block-center">
-                <ul class="nav navbar-nav navbar-center ">
-                    <li><a href="#">Acceuil</a></li>
-                    <li><a href="#">Mon Parcours musical</a></li>
-                    <li><a href="#">Tarifs & inscriptions</a></li>
-                    <li><a href="#">Évenements</a></li>
-                    <li><a href="#">Mon Compte</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="nav-orange"></div> -->
-
+        <?php include('template/header.html'); ?>
     </header>
+
     <h1>Bonjour {{Prénom}}</h1>
     <div class="container">
         <div class="row">
@@ -78,7 +38,7 @@
 
             <div class="col-md-6">
                 <div class="panel panel-default">
-                    <div class="panel-heading">
+                    <div class="panel-heading mb_panel-heading">
                         <h3 class="panel-title">Mes cours</h3>
                     </div>
                     <div class="panel-body">
@@ -167,7 +127,7 @@
     <div class="container">
         <!-- Panel Payement -->
         <div class="panel panel-default">
-            <div class="panel-heading">
+            <div class="panel-heading mb_panel-heading">
                 <h3 class="panel-title">Payement</h3>
             </div>
             <div class="panel-body">
@@ -218,7 +178,7 @@
     <div class="container">
         <!-- Panel Informations complémentaires -->
         <div class="panel panel-default">
-            <div class="panel-heading">
+            <div class="panel-heading mb_panel-heading">
                 <h3 class="panel-title">Informations complémentaires</h3>
             </div>
             <div class="panel-body">

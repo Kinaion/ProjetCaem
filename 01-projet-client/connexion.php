@@ -10,10 +10,11 @@
     <link rel="icon" type="image/png" href="assets/maquette/logo_CAEM.png">
     <!-- font-awesome -->
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-    <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS BOOTSTRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- css perso de la page -->
     <link rel="stylesheet" href="assets/css/connexion.css">
-    <!-- style header -->
+    <!-- style du header importé -->
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -24,6 +25,47 @@
 
 <!--  partir de la racine = plus safe -->
 <?php include('template/header.html'); ?>
+
+<header>
+    <div class="container-fluid">
+        <div class="row" id="contact-connection">
+            <div id="logo-desktop" class="col-md-11">Suivez-nous sur
+                <a href="#"><img src="../assets/img/facebook_logo.svg"></img>
+                </a>
+                <a href="#"><img src="../assets/img/twitter_logo.svg"></img>
+                </a>
+                <a href="#"><img src="../assets/img/youtube_logo.svg"></img>
+                </a> ou <a href="#">contactez-nous</a> directement.
+            </div>
+            <div id="logo-mobile" class="col-md-11">
+                <a href="#"><img src="../assets/img/facebook_logo.svg"></img>
+                </a>
+                <a href="#"><img src="../assets/img/twitter_logo.svg"></img>
+                </a>
+                <a href="#"><img src="../assets/img/youtube_logo.svg"></img>
+                </a>
+            </div>
+            <div class="col-md-1">
+                <a id="connection" href="#">Connexion</a>
+            </div>
+        </div>
+        <div class="row" id=header>
+            <img src="assets/img/logo_CAEM.svg" alt="logo">
+        </div>
+    </div>
+    <nav>
+        <ul class="menu" id="myMenu">
+            <li class="home"><a href="#">Accueil</a></li>
+            <li class="icon">
+                <a href="javascript:void(0);" onclick="myBurger()">&#9776;</a>
+            </li>
+            <li><a href="#">Mon parcours musical</a></li>
+            <li><a href="#">Tarifs & Inscriptions</a></li>
+            <li><a href="#">Évenements</a></li>
+            <li><a href="#">L'équipe</a></li>
+        </ul>
+    </nav>
+</header>
 
 
     <h2 class="text-center">Connexion</h2>

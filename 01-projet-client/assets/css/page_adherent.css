@@ -30,7 +30,12 @@ h1{
   margin-top: 0px;
   margin-bottom: 20px;
 }
-
+/*SCSS panel-heading*/
+.panel-default> .panel-heading {
+    color: #333;
+    background-color: #FC9633;
+    border-color: #ddd;
+  }
 
 /*--FOOTER--*/
 footer{
