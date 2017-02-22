@@ -87,14 +87,14 @@
 
     </header>
 
-    <h1>Bonjour {{Prénom}}</h1>
+    <h1>Bonjour <?php echo htmlspecialchars ($_POST ['prenom']); ?></h1>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <!-- Panel coordonées -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title mb_panel-title">Coordonnées</h3>
+                        <h3 class="panel-title mb_panel-title">Coordonnées <i class="fa fa-user" aria-hidden="true"></i></h3>
                     </div>
                     <div class="panel-body">
                         <h4>Eleve:</h4>
@@ -118,7 +118,7 @@
             <div class="col-md-6">
                 <div class="panel panel-default">
                     <div class="panel-heading mb_panel-heading">
-                        <h3 class="panel-title mb_panel-title">Mes cours</h3>
+                        <h3 class="panel-title mb_panel-title">Mes cours <i class="fa fa-calendar-check-o" aria-hidden="true"></i></h3>
                     </div>
                     <div class="panel-body">
                         <table class="table">
@@ -207,7 +207,7 @@
         <!-- Panel Payement -->
         <div class="panel panel-default">
             <div class="panel-heading mb_panel-heading">
-                <h3 class="panel-title mb_panel-title">Payement</h3>
+                <h3 class="panel-title mb_panel-title">Payement <i class="fa fa-eur" aria-hidden="true"></h3>
             </div>
             <div class="panel-body">
                 <table class="table">
@@ -258,7 +258,7 @@
         <!-- Panel Informations complémentaires -->
         <div class="panel panel-default">
             <div class="panel-heading mb_panel-heading">
-                <h3 class="panel-title mb_panel-title">Informations complémentaires</h3>
+                <h3 class="panel-title mb_panel-title">Informations complémentaires <i class="fa fa-info-circle" aria-hidden="true"></i></h3>
             </div>
             <div class="panel-body">
                 <p>J'ai certifié avoir autorisé le CAEM Besançon à photographier ou filmer mon enfant ou moi, durant les cours et les spectacles organisés par l'association et à utiliser ces photographies pour les supports de communiactions de la structure.</p>

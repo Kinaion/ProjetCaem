@@ -74,7 +74,7 @@
 
     <h2 id="mb_title-form" class="text-center">Connexion</h2>
     <!-- FORMULAIRE -->
-    <form id="form" class="center-block hvr-curl-top-right">
+    <form id="form" class="center-block hvr-curl-top-right" method="post" action="page_adherent.php">
 
         <div class="form-group">
             <label for="mail" class="control-label">Email</label>
