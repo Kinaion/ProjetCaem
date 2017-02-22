@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <?php  include('template/head.html'); ?>
+    <?php  include('head'); ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,19 +8,21 @@
     <meta name="description" content="École de musique à Besançon" />
     <!-- favicon logo CAEM  -->
     <link rel="icon" type="image/png" href="assets/maquette/logo_CAEM.png">
-    <!-- BOOTSTRAP -->
+    <!-- CSS BOOTSTRAP-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- font-police  -->
+    <!-- font-police -->
     <link href="http://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet" type="text/css">
     <!-- font-awesome -->
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- css-hoover -->
+    <link rel="stylesheet" href="/css/master.css">
     <!-- css header -->
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- css de la page -->
     <link rel="stylesheet" href="assets/css/page_adherent.css">
-    <!-- SCSS color title-panel -->
+    <!-- SCSS (couleur des titres panels)-->
     <link rel="stylesheet" href="assets/css/scss/adherent.css">
-    
+
     <!-- Latest compiled and minified JavaScript & jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -28,7 +30,7 @@
 
 <body>
     <header>
-        <?php include('template/header.html'); ?>
+        <?php include('header'); ?>
 
         <header>
             <div class="container-fluid">
@@ -85,14 +87,14 @@
 
     </header>
 
-    <h1>Bonjour Lucie</h1>
+    <h1>Bonjour {{Prénom}}</h1>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <!-- Panel coordonées -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Coordonnées</h3>
+                        <h3 class="panel-title mb_panel-title">Coordonnées</h3>
                     </div>
                     <div class="panel-body">
                         <h4>Eleve:</h4>
@@ -113,11 +115,10 @@
             </div>
 
             <!-- Panel cours -->
-
             <div class="col-md-6">
                 <div class="panel panel-default">
                     <div class="panel-heading mb_panel-heading">
-                        <h3 class="panel-title">Mes cours</h3>
+                        <h3 class="panel-title mb_panel-title">Mes cours</h3>
                     </div>
                     <div class="panel-body">
                         <table class="table">
@@ -206,7 +207,7 @@
         <!-- Panel Payement -->
         <div class="panel panel-default">
             <div class="panel-heading mb_panel-heading">
-                <h3 class="panel-title">Payement</h3>
+                <h3 class="panel-title mb_panel-title">Payement</h3>
             </div>
             <div class="panel-body">
                 <table class="table">
@@ -257,10 +258,10 @@
         <!-- Panel Informations complémentaires -->
         <div class="panel panel-default">
             <div class="panel-heading mb_panel-heading">
-                <h3 class="panel-title">Informations complémentaires</h3>
+                <h3 class="panel-title mb_panel-title">Informations complémentaires</h3>
             </div>
             <div class="panel-body">
-                <p>J'ai certifié avoir autorisé le CAEM Besançon à photographier ou filmer mon enfant ou moi, durant les cours et les spectacles organisés par l'association et à utiloiser ces photographies pour les supports de communiactions de la structure.</p>
+                <p>J'ai certifié avoir autorisé le CAEM Besançon à photographier ou filmer mon enfant ou moi, durant les cours et les spectacles organisés par l'association et à utiliser ces photographies pour les supports de communiactions de la structure.</p>
                 <p>j'ai certifié avoir pris connaissance des statuts de l'associations et je souhaite devenir adhérent du Carrefour d'Animation et d'Expression Musicales.</p>
             </div>
         </div>

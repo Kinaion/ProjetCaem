@@ -8,17 +8,18 @@
     <title>CAEM Besançon École de musique - Connection</title>
     <!-- favicon logo CAEM  -->
     <link rel="icon" type="image/png" href="assets/maquette/logo_CAEM.png">
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- font-awesome -->
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">    
     <!-- police-font -->
     <link href="http://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet" type="text/css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="vendor/Hover-master/css/hover.css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+
     <!-- style du header importé -->
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- css perso de la page -->
     <link rel="stylesheet" href="assets/css/connexion.css">
-
+    <!-- JS -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -27,25 +28,25 @@
 <body>
 
 <!--  partir de la racine = plus safe -->
-<?php include('template/header.html'); ?>
+<?php include'template/header.html'; ?>
 
 <header>
     <div class="container-fluid">
         <div class="row" id="contact-connection">
             <div id="logo-desktop" class="col-md-11">Suivez-nous sur
-                <a href="#"><img src="../assets/img/facebook_logo.svg"></img>
+                <a href="#"><img src="assets/img/facebook_logo.svg"></img>
                 </a>
-                <a href="#"><img src="../assets/img/twitter_logo.svg"></img>
+                <a href="#"><img src="assets/img/twitter_logo.svg"></img>
                 </a>
-                <a href="#"><img src="../assets/img/youtube_logo.svg"></img>
+                <a href="#"><img src="assets/img/youtube_logo.svg"></img>
                 </a> ou <a href="#">contactez-nous</a> directement.
             </div>
             <div id="logo-mobile" class="col-md-11">
-                <a href="#"><img src="../assets/img/facebook_logo.svg"></img>
+                <a href="#"><img src="assets/img/facebook_logo.svg"></img>
                 </a>
-                <a href="#"><img src="../assets/img/twitter_logo.svg"></img>
+                <a href="#"><img src="assets/img/twitter_logo.svg"></img>
                 </a>
-                <a href="#"><img src="../assets/img/youtube_logo.svg"></img>
+                <a href="#"><img src="assets/img/youtube_logo.svg"></img>
                 </a>
             </div>
             <div class="col-md-1">
@@ -73,7 +74,7 @@
 
     <h2 id="mb_title-form" class="text-center">Connexion</h2>
     <!-- FORMULAIRE -->
-    <form id="form" class="center-block">
+    <form id="form" class="center-block hvr-curl-top-right">
 
         <div class="form-group">
             <label for="mail" class="control-label">Email</label>
@@ -103,7 +104,9 @@
         </div>
     </form>
     <footer><div style="width: 100%; height: 100px; background-color: #1A1A1A; margin-top : 25px;"></div>
-        <?php include 'footer.html'; ?>
+
+      <?php include 'footer.html'; ?>
+
     </footer>
 </body>
 

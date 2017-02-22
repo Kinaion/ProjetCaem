@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Quicksand Light'), local('Quicksand-Light'), url(http://fonts.gstatic.com/s/quicksand/v6/qhfoJiLu10kFjChCCTvGlOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
 header #contact-connection {
   background-color: #1A1A1A;
   color: white;
@@ -35,7 +43,8 @@ header li a {
   padding-left: 3vw;
   padding-right: 3vw;
   color: white;
-  font-size: 3vh; }
+  font-size: 3vh;
+font-family: 'Quicksand'; }
 header li a:hover {
   background: #333333;
   text-decoration: none;
