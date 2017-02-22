@@ -27,7 +27,11 @@
   margin-top: 0px;
   margin-bottom: 20px;
 }
-
+/*title main*/
+#mb_title-form{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 /*FORMULAIRE*/
 .form-control{
   max-width: 40vh;
@@ -37,4 +41,5 @@
   background-color: #FC9633;
   padding: 15px;
   border-radius: 10px;
+  margin-bottom: 50px;
 }

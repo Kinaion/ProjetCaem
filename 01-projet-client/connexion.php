@@ -8,14 +8,17 @@
     <title>CAEM Besançon École de musique - Connection</title>
     <!-- favicon logo CAEM  -->
     <link rel="icon" type="image/png" href="assets/maquette/logo_CAEM.png">
-    <!-- font-awesome -->
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-    <!-- Latest compiled and minified CSS BOOTSTRAP -->
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- css perso de la page -->
-    <link rel="stylesheet" href="assets/css/connexion.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">    
+    <!-- police-font -->
+    <link href="http://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet" type="text/css">
     <!-- style du header importé -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <!-- css perso de la page -->
+    <link rel="stylesheet" href="assets/css/connexion.css">
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -68,7 +71,7 @@
 </header>
 
 
-    <h2 class="text-center">Connexion</h2>
+    <h2 id="mb_title-form" class="text-center">Connexion</h2>
     <!-- FORMULAIRE -->
     <form id="form" class="center-block">
 
@@ -100,7 +103,7 @@
         </div>
     </form>
     <footer><div style="width: 100%; height: 100px; background-color: #1A1A1A; margin-top : 25px;"></div>
-
+        <?php include 'footer.html'; ?>
     </footer>
 </body>
 

@@ -1,6 +1,8 @@
 /* --HEADER-- */
 h1{
+  margin-top: 50px;
   text-align: center;
+  margin-bottom: 50px;
 }
 .navbar{
   border-radius: 0px;
